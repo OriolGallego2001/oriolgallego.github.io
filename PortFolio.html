@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 2rem auto;
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal portfolio. Here, you'll find a collection of my projects and achievements.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Oriol Gallego, a software developer specialized in C++, Python and game engine development. I have experience in developing custom game engines, animation systems, mesh navigation and working with OpenGL, among other technologies. I love solving complex problems and optimizing systems for performance and scalability.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Custom Game Engine</h3>
+                <p>Collaborated with developers to develop a game engine from scratch using C++, OpenGL, and ImGui. In his project I developed and mantained the animation system, resource management, and real-time navigation systems.</p>
+                <a href="https://github.com/RollingBarrel/Helheim-Engine" target="https://github.com/RollingBarrel/Helheim-Engine">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Animation System</h3>
+				<img src="TEMP.gif" alt="Animation System Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+                <p>Designed and implemented an animation system with skinning, locomotion and state machines. Integrated GLTF animation loading and binary resource management. Worked hand to hand with artists to manage assets formats and errors.</p>
+            </div>
+			<div class="project-card">
+                <h3>Navigation System</h3>
+			    <img src="TEMP.gif" alt="Navigation System Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+                <p>Designed and implemented an animation state machine with an ImGui node editor. Integrated GLTF animation loading and binary resource management. Worked hand to hand with artists to manage assets formats and errors.</p>
+            </div>
+			<div class="project-card">
+                <h3>ImGui Node Editor for State Machines</h3>
+				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+                <p>Designed and implemented an animation state machine with an ImGui node editor. Integrated GLTF animation loading and binary resource management. Worked hand to hand with artists to manage assets formats and errors.</p>
+            </div>
+            <div class="project-card">
+                <h3>3D Game</h3>
+                <p>Collaborated with a team of artists and developers to build a 3D game using our custom engine. Optimized the engine to handle real-time physics and rendering.</p>
+                <a href="https://github.com/RollingBarrel/Helheim-Engine/releases" target="https://github.com/RollingBarrel/Helheim-Engine/releases">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>For a detailed overview of my skills and experience, download my resume:</p>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:oriol.gv2001@gmail.com">oriol.gv2001@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Oriol Gallego. All Rights Reserved. | <a href="https://github.com/your-github" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></p>
+    </footer>
+
+</body>
+</html>
