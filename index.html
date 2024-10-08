@@ -78,6 +78,25 @@
             color: #fff;
             text-decoration: none;
         }
+		.profile-video {
+            width: 300px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 1rem;
+            border: 4px solid white;
+        }
+		.profile-video:hover {
+			transform: scale(2.5);
+		}
+		.profile-image {
+			width:100%; 
+			height:auto; 
+			margin-bottom:1rem;
+		}
+		.profile-image:hover {
+			transform: scale(2.5);
+		}
+
     </style>
 </head>
 <body>
@@ -104,52 +123,67 @@
         <div class="projects">
             <div class="project-card">
                 <h3>Custom Game Engine</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
-                <p>Collaborated with developers to develop a game engine from scratch using C++, OpenGL, and ImGui. In his project I developed and mantained the animation system, resource management, and real-time navigation systems.</p>
+				<video class="profile-video" autoplay loop muted playsinline>
+					<source src="EngineShort.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+                <p>Collaborated with developers to develop a game engine from scratch using C++, OpenGL, and ImGui. In this project I developed and mantained the animation system, resource management, and real-time navigation systems.</p>
                 <a href="https://github.com/RollingBarrel/Helheim-Engine" target="https://github.com/RollingBarrel/Helheim-Engine">View on GitHub</a>
             </div>
             <div class="project-card">
                 <h3>Animation System</h3>
-				<img src="TEMP.gif" alt="Animation System Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<video class="profile-video" autoplay loop muted playsinline>
+					<source src="AnimationSystem.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
                 <p>Designed and implemented an animation system with skinning, locomotion and state machines. Integrated GLTF animation loading and binary resource management. Worked hand to hand with artists to manage assets formats and errors.</p>
             </div>
 			<div class="project-card">
                 <h3>Navigation System</h3>
-			    <img src="TEMP.gif" alt="Navigation System Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+			    <video class="profile-video" autoplay loop muted playsinline>
+					<source src="NavigationAIGameplay.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
                 <p>Integrated the recast and detour navigation open source libraries into our game engine. Designed and integrated a navigation system using the library.</p>
             </div>
 			<div class="project-card">
                 <h3>ImGui Node Editor for State Machines</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<video class="profile-video" autoplay loop muted playsinline>
+					<source src="EditSM.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
                 <p>Integrated ImGui node editor library into our game engine. Implemented the creation, modification and selection of Animation States and Transitions for gameplay.</p>
             </div>
             <div class="project-card">
                 <h3>3D Game</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<video class="profile-video" autoplay loop muted playsinline>
+					<source src="Gameplay.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
                 <p>Collaborated with a team of artists and developers to build a 3D game using our custom engine. Optimized the engine to handle real-time physics and rendering.</p>
                 <a href="https://github.com/RollingBarrel/Helheim-Engine/releases" target="https://github.com/RollingBarrel/Helheim-Engine/releases">View on GitHub</a>
             </div>
 			<div class="project-card">
                 <h3>Real Time Graphics Engine</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<img src="TEMP.gif" alt="State Machine Editor Demo" class="profile-image">
                 <p>Developed a real time graphics engine with advanced rendering techniques I implemented during my UPF degree of computer science.</p>
                 <a href="https://github.com/OriolGallego2001/GTR_Framework" target="https://github.com/OriolGallego2001/GTR_Framework">View on GitHub</a>
             </div>
 			<div class="project-card">
                 <h3>Advanced Computer Graphics exercises</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<img src="TEMP.gif" alt="State Machine Editor Demo" class="profile-image">
                 <p>Developed a rendering pipeline for rendering a scene using raycasting, and rendering objects using volumetric graphics.</p>
                 <a href="https://github.com/OriolGallego2001/AdvancedComputerGraphics" target="https://github.com/OriolGallego2001/AdvancedComputerGraphics">View on GitHub</a>
             </div>
 			<div class="project-card">
                 <h3>Augmented Reality for children</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<img src="TEMP.gif" alt="State Machine Editor Demo" class="profile-image">
                 <p>Investigated, designed and implemented an Augmented Reality Application with Unity to complement a book for a children's book about the overcoming the loss.</p>
                 <a href="https://github.com/RollingBarrel/Helheim-Engine/releases" target="https://github.com/RollingBarrel/Helheim-Engine/releases">View on GitHub</a>
             </div>
 			<div class="project-card">
                 <h3>Virtual Reality Game Jam Project</h3>
-				<img src="TEMP.gif" alt="State Machine Editor Demo" style="width:100%; height:auto; margin-bottom:1rem;">
+				<img src="TEMP.gif" alt="State Machine Editor Demo" class="profile-image">
                 <p>Helped developing a Virtual Reality Game with Unreal Engine in BCN Game Jam 2023.</p>
                 <a href="https://github.com/jordialfonsop/GameJamBarcelona2024" target="https://github.com/jordialfonsop/GameJamBarcelona2024">View on GitHub</a>
             </div>
